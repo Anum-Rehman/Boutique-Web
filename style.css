@@ -1,0 +1,250 @@
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    border-image-width: 100%; 
+}
+.jew-head,.bag-head{
+    font-size: 50px;
+    color: maroon;
+    text-shadow: -2px 2px 2px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.fig-border{
+    margin-left: 0px;
+    margin-right: 15px;
+    border: 2px solid black;
+}
+figcaption{
+    text-align: center;
+}
+#designs{
+    margin-top: 15%;
+}
+#clutch-img{
+    overflow: hidden;
+}
+.template{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    z-index: 1;
+}
+#jew,#bag{
+    float: right;
+    font-size: 18px;
+}
+#main-head,h1{
+    text-align: center;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#info{
+        float: right;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 130px;
+    height: 40px;
+    opacity: 0.8;
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+ul li a:hover{
+    color:gray;
+    display: block;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+header{
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    z-index: 2;
+}
+#con{
+    z-index: 1;
+    width: 1350px;
+    height: 700px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+#slider{
+    position: relative;
+    width: 600%;
+    animation: slide 30s infinite;
+}
+#slider img{
+    float: left;
+    width: 1350px;
+    height: 700px;
+}
+@keyframes slide{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: -100%;
+    }
+    25%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    45%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    85%{
+        left: -400%;
+    }
+    100%{
+        left: -500%;
+    }
+}
+#fixed{
+    position: fixed;
+}
+#dress,#jwl,#des,#bag,#shoe{
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    float: left;
+    margin: 30px;
+    margin-top: -10px;
+    border: 2px solid black;
+    margin-bottom: 80px;
+}
+#dress h3,#jwl h3,#des h3,#bag h3,#shoe h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#products{
+    margin-top: 20px;
+}
+#products h1{
+    font-size: 40px;
+    color: maroon;
+    text-shadow: -2px 2px 2px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pro-slider{
+    position: relative;
+    width: 600%;
+    animation: slide 30s infinite;
+}
+.pro-slider img{
+    float: left;
+    width: 200px;
+    height: 350px;
+}
+@keyframes slide{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: -100%;
+    }
+    25%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    45%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    85%{
+        left: -400%;
+    }
+    100%{
+        left: -500%;
+    }
+}
+#about{
+    height: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -100px;
+}
+#about img{
+    height: 300px;
+    width: 300px;
+}
+#about h1,#contact h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: maroon;
+    text-shadow: 2px -2px 2px black;
+    margin-bottom: -50px;
+}
+#about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: maroon;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+#contact a:hover{
+    color: blue;
+}
+#intro,#work,#speciality{
+    margin-top: -20px;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 70px;
+    margin-bottom: 80px;
+    border: 2px solid white;
+}
+#contact{
+    margin-top: -20px;
+}
+#cnt{
+    margin-top: 70px;
+}
